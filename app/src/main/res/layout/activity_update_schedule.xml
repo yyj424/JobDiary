@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF">
+
+    <EditText
+        android:id="@+id/et_scheduleName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#E7F1F6"
+        android:ems="10"
+        android:fontFamily="@font/finalfont"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/finalfont"
+        android:includeFontPadding="false"
+        android:text="일정 이름"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TimePicker
+        android:id="@+id/tp_update"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="28dp"
+        android:background="#5BA0CEDE"
+        android:timePickerMode="spinner"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/tv_selectedDate" />
+
+    <Button
+        android:id="@+id/btn_datePicker"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/ic_baseline_today_24"
+        app:layout_constraintStart_toEndOf="@+id/tv_selectedDate"
+        app:layout_constraintTop_toBottomOf="@+id/et_scheduleName" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/finalfont"
+        android:includeFontPadding="false"
+        android:text="날짜"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="96dp"
+        android:fontFamily="@font/finalfont"
+        android:includeFontPadding="false"
+        android:text="알람"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/btn_delete_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/finalfont"
+        android:includeFontPadding="false"
+        android:onClick="onClick"
+        android:text="삭제"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/btn_update_schedule"
+        app:layout_constraintTop_toBottomOf="@+id/tp_update" />
+
+    <Button
+        android:id="@+id/btn_update_schedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#FAC564"
+        android:fontFamily="@font/finalfont"
+        android:includeFontPadding="false"
+        android:onClick="onClick"
+        android:text="수정"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tp_update" />
+
+    <TextView
+        android:id="@+id/tv_selectedDate"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#E7F1F6"
+        android:ems="10"
+        android:fontFamily="@font/finalfont"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/et_scheduleName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ddwucom.mobile.finalproject.ma01_20180985">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_api_key"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/kakao_scheme"
+                    android:host="@string/kakaolink_host" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+        <activity android:name=".AllScheduleActivity"/>
+        <activity android:name=".AddScheduleActivity"/>
+        <activity android:name=".AllDiaryActivity"/>
+        <activity android:name=".DiaryViewActivity"/>
+        <activity android:name=".UpdateScheduleActivity"/>
+        <receiver android:name=".MyBroadcastReceiver"/>
+        <activity android:name=".WantedListActivity"/>
+        <activity android:name=".RegionActivity"/>
+        <activity android:name=".WantedSearchActivity"/>
+        <activity android:name=".WantedViewActivity"/>
+        <activity android:name=".JobListActivity"/>
+        <activity android:name=".JobViewActivity"/>
+        <activity android:name=".JobsActivity"/>
+        <activity android:name=".StarListActivity"/>
+        <service
+            android:name=".FetchLatLngIntentService"
+            android:exported="false"/>
+    </application>
+
+</manifest>
