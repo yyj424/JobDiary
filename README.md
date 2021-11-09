@@ -1,0 +1,10 @@
+# JobDiary
+![슬라이드3](https://user-images.githubusercontent.com/69260313/140921268-3e9853a6-cdcf-4593-bf17-a06991af1209.PNG)
+![슬라이드4](https://user-images.githubusercontent.com/69260313/140921285-bfd60ba6-da92-49d1-8566-b92503b79a65.PNG)
+![슬라이드5](https://user-images.githubusercontent.com/69260313/140921034-0037a3ff-c02f-4832-8b82-104522ee1a35.PNG)
+![슬라이드6](https://user-images.githubusercontent.com/69260313/140921100-b1482d2c-9357-4054-b4d2-b4de0b7063e6.PNG)
+![슬라이드7](https://user-images.githubusercontent.com/69260313/140921138-20f64bcf-5c37-4fbe-83f6-6dbb96fc1f62.PNG)
+![슬라이드8](https://user-images.githubusercontent.com/69260313/140921160-38cf0889-01e8-4793-a669-5b1d35b46bb1.PNG)
+![슬라이드9](https://user-images.githubusercontent.com/69260313/140921170-ca0bd48a-4289-4664-b5f8-4e11aa4ee9d9.PNG)
+![슬라이드10](https://user-images.githubusercontent.com/69260313/140921183-7a457f05-dc1a-4b91-bb5b-18fc9faeaa0e.PNG)
+![슬라이드11](https://user-images.githubusercontent.com/69260313/140921197-9cf93ad1-dc6f-4d09-9e89-1ffafba1a22d.PNG)
