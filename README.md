@@ -1,4 +1,4 @@
-# JobDiary
+# JobDiary_취준진담
 ![슬라이드3](https://user-images.githubusercontent.com/69260313/140921268-3e9853a6-cdcf-4593-bf17-a06991af1209.PNG)
 ![슬라이드4](https://user-images.githubusercontent.com/69260313/140921285-bfd60ba6-da92-49d1-8566-b92503b79a65.PNG)
 ![슬라이드5](https://user-images.githubusercontent.com/69260313/140921034-0037a3ff-c02f-4832-8b82-104522ee1a35.PNG)
